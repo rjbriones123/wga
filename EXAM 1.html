@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var name=prompt("Enter your name:")
+        var a=parseInt(prompt("Enter First Grade:"));
+        var b=parseInt(prompt("Enter Second Grade:"));
+        var c=parseInt(prompt("Enter Third Grade:"));
+        var d=parseInt(prompt("Enter Fourth Grade:"));
+        var gwa=(a+b+c+d)/4
+        document.write("General Weight Average:"+" "+gwa+"<br>");{
+            if (gwa<70){
+                document.write(name+" "+"you got a failed remarks")
+            }
+            else{
+                document.write(name+" "+"you got a passed remarks")
+            }
+        }
+    </script>
+</body>
+</html>
